@@ -1,0 +1,21 @@
+.footerContainer {
+    width: 100vw; 
+    font-size: 1.1rem; 
+    text-align: center;
+    margin: 3rem 0;
+    color: #bdc1ff;
+}
+
+.footerContainer a { 
+    color: #ffffff; 
+}
+
+@media(min-width: 1000px) {
+    .footerContainer {
+        margin: 0;
+        position: absolute;
+        top: 98%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

@@ -1,0 +1,133 @@
+.cardContainer {
+    width: 30rem;
+    margin-top: 3rem;
+}
+
+.cardContainer.work {
+    background: url('../../images/icon-work.svg');
+    background-color: #ff8c66;
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: right top;
+
+    border-radius: 1rem;
+}
+
+.cardContainer.play {
+    background: url('../../images/icon-play.svg');
+    background-color: #56c2e6;
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: right top;
+
+    border-radius: 1rem;
+}
+
+.cardContainer.study {
+    background: url('../../images/icon-study.svg');
+    background-color: #ff5c7c;
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: right top;
+
+    border-radius: 1rem;
+}
+
+.cardContainer.exercise {
+    background: url('../../images/icon-exercise.svg');
+    background-color: #4acf81;
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: right top;
+
+    border-radius: 1rem;
+}
+
+.cardContainer.social {
+    background: url('../../images/icon-social.svg');
+    background-color: #7536d3;
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: right top;
+
+    border-radius: 1rem;
+}
+
+.cardContainer.selfCare {
+    background: url('../../images/icon-self-care.svg');
+    background-color: #f1c65b;
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: right top;
+
+    border-radius: 1rem;
+}
+
+.infoCard {
+    background-color: #1c1f4a;
+    border-radius: 1rem;
+
+    margin-top: 6rem;
+    padding: 2rem;
+}
+
+.infoCard:hover {
+    cursor: pointer;
+    background-color: #6f76c8;
+}
+
+.infoCard .titleCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.infoCard .titleCard h1 {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+.infoCard .titleCard span svg path:hover {
+    cursor: pointer;
+    fill: #ffffff;
+}
+
+.infoCard .timeCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.infoCard .timeCard h1 {
+    color: #bdc1ff;
+    font-weight: 300;
+    font-size: 3rem;
+}
+
+.infoCard .timeCard p {
+    color: #bdc1ff;
+    font-weight: 300;
+}
+
+@media (min-width: 1000px) {
+    .cardContainer {
+        width: 20rem;
+        margin-top: 0;
+    }
+
+    .infoCard .titleCard {
+        margin-bottom: 3rem;
+    }
+
+    .infoCard .timeCard {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .infoCard .timeCard h1 {
+        margin-bottom: 1rem;
+    }
+}
