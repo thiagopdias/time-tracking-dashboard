@@ -10,11 +10,11 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route exact path="/" element={<Daily />}/>
+        <Route exact path="/time-tracking-dashboard/" element={<Daily />}/>
 
-        <Route path="/weekly" element={<Weekly />}/>
+        <Route path="/time-tracking-dashboard/weekly" element={<Weekly />}/>
 
-        <Route path="/monthly" element={<Monthly />}/>
+        <Route path="/time-tracking-dashboard/monthly" element={<Monthly />}/>
       </Routes>
 
       <Footer />

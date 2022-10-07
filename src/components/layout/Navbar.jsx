@@ -7,15 +7,15 @@ const Navbar = () => {
     <nav className="navbar">
       <ul className="list">
           <li>
-              <Link to="/">Daily</Link>
+              <Link to="/time-tracking-dashboard/">Daily</Link>
           </li>
 
           <li>
-              <Link to="/weekly">Weekly</Link>
+              <Link to="/time-tracking-dashboard/weekly">Weekly</Link>
           </li>
 
           <li>
-              <Link to="/monthly">Monthly</Link>
+              <Link to="/time-tracking-dashboard/monthly">Monthly</Link>
           </li>
       </ul>
     </nav>
